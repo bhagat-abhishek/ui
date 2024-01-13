@@ -4,11 +4,11 @@
 <a href="https://packagist.org/packages/laravel/ui"><img src="https://img.shields.io/packagist/v/laravel/ui" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/ui"><img src="https://img.shields.io/packagist/l/laravel/ui" alt="License"></a>
 
-## This legacy package is a very simple authentication scaffolding built on the Bootstrap CSS framework. While it continues to work with the latest version of Laravel, you should consider using [Laravel Breeze](https://github.com/laravel/breeze) for new projects. Or, for something more robust, consider [Laravel Jetstream](https://github.com/laravel/jetstream).
-
 ## Introduction
 
 While Laravel does not dictate which JavaScript or CSS pre-processors you use, it does provide a basic starting point using [Bootstrap](https://getbootstrap.com/), [React](https://reactjs.org/), and / or [Vue](https://vuejs.org/) that will be helpful for many applications. By default, Laravel uses [NPM](https://www.npmjs.org/) to install both of these frontend packages.
+
+> This legacy package is a very simple authentication scaffolding built on the Bootstrap CSS framework. While it continues to work with the latest version of Laravel, you should consider using [Laravel Breeze](https://github.com/laravel/breeze) for new projects. Or, for something more robust, consider [Laravel Jetstream](https://github.com/laravel/jetstream).
 
 ## Official Documentation
 
@@ -20,7 +20,7 @@ Only the latest major version of Laravel UI receives bug fixes. The table below 
 |---- |----|
 | [1.x](https://github.com/laravel/ui/tree/1.x) | 5.8, 6.x |
 | [2.x](https://github.com/laravel/ui/tree/2.x) | 7.x |
-| [3.x](https://github.com/laravel/ui/tree/3.x) | 8.x |
+| [3.x](https://github.com/laravel/ui/tree/3.x) | 8.x, 9.x |
 
 ### Installation
 
@@ -92,7 +92,7 @@ By default, the Laravel `webpack.mix.js` file compiles your SASS and the `resour
 
 #### Writing Vue Components
 
-When using the `laravel/ui` package to scaffold your frontend, an `ExampleComponent.vue` Vue component will be placed in the `resources/js/components` directory. The `ExampleComponent.vue` file is an example of a [single file Vue component](https://vuejs.org/guide/single-file-components) which defines its JavaScript and HTML template in the same file. Single file components provide a very convenient approach to building JavaScript driven applications. The example component is registered in your `app.js` file:
+When using the `laravel/ui` package to scaffold your frontend, an `ExampleComponent.vue` Vue component will be placed in the `resources/js/components` directory. The `ExampleComponent.vue` file is an example of a [single file Vue component](https://vuejs.org/guide/scaling-up/sfc.html) which defines its JavaScript and HTML template in the same file. Single file components provide a very convenient approach to building JavaScript driven applications. The example component is registered in your `app.js` file:
 
 ```javascript
 Vue.component(
